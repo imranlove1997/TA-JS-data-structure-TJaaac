@@ -18,18 +18,18 @@ let newUser = user;
 
 2. Answer the following with reason:
 
-- `user == newUser;` // output and reason
-- `user === newUser;`
-- `user.name === newUser.name;`
-- `user.name == newUser.name;`
-- `user.sibling == newUser.sibling;`
-- `user.sibling === newUser.sibling;`
-- `user.sibling == allBrothers;`
-- `user.sibling === allBrothers;`
-- `brothersCopy === allBrothers;`
-- `brothersCopy == allBrothers;`
-- `brothersCopy == user.sibling;`
-- `brothersCopy === user.sibling;`
-- `brothersCopy[0] === user.sibling[0];`
-- `brothersCopy[1] === user.sibling[1];`
-- `user.sibling[1] === newUser.sibling[1];`
+- `user == newUser;` // true and reason both have stored same value they are equal
+- `user === newUser;` // true and reason both have stored same value they are equal
+- `user.name === newUser.name;` // true and reason both have stored same value they are equal
+- `user.name == newUser.name;` // true and reason both have stored same value they are equal
+- `user.sibling == newUser.sibling;` // true and reason both have stored same value they are equal
+- `user.sibling === newUser.sibling;` // true and reason both have stored same value they are equal
+- `user.sibling == allBrothers;` // false and reason both have not stored same value they are not equal
+- `user.sibling === allBrothers;` // false and reason both have not stored same value they are not equal
+- `brothersCopy === allBrothers;` // false and reason both have not stored same value they are not equal
+- `brothersCopy == allBrothers;` // false and reason both have not stored same value they are not equal
+- `brothersCopy == user.sibling;` // true and reason both have stored same value they are equal
+- `brothersCopy === user.sibling;` // true and reason both have stored same value they are equal
+- `brothersCopy[0] === user.sibling[0];` // true and reason both have stored same value they are equal
+- `brothersCopy[1] === user.sibling[1];` // true and reason both have stored same value they are equal
+- `user.sibling[1] === newUser.sibling[1];` // true and reason both have stored same value they are equal
